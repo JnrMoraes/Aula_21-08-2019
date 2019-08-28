@@ -1,0 +1,126 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+   
+  
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:  auto;
+    min-width: 300px;
+    grid-template-rows: 80px 60vh 10px;
+    grid-row-gap: 20px;
+    /* grid-template-areas: 
+        "header"
+        "article"
+        "footer" */
+} 
+
+header{
+    background: rgb(255, 255, 255);
+    height: 150px;
+    box-shadow: 0 4 0 5px grey;
+    /* grid-area: header; */
+
+}
+.logoHead{
+    display:flex;
+    flex-direction:row;
+    align-content: left ;
+    border-collapse: collapse;
+    margin-left: 35px;
+    height: 175px;
+
+}
+
+main{
+    diplay: flex;
+    justify-content: center;
+    align-itens: center;
+    text-align: center;
+    background: rgb(253, 253, 253)(255, 255, 255);
+    height: 500px;
+    /* grid-area: article; */
+
+}
+table#tabela{
+    font-size:45px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabela td{
+    border: 1px solid grey;
+}
+.formulario{
+    font-size:45px;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+ol#lista{
+    font-size:17px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol#lista td{
+border: 1px solid grey;
+}
+
+
+
+
+aside{
+
+}
+footer{
+    background: #ffffff;
+    /* border-top: 5px solid rgb(247, 0, 255);; */
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    opacity:.6;
+
+ }
+ .logo{
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+    box-shadow: 2 0 0 5px grey;
+    /* height: 175px; */
+
+}
+
+.nav1{ 
+    
+    position: absolute;
+    right: 330px;
+    top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #282F81;
+}
+.nav2{ 
+   
+    position: absolute;
+    right: 245px;
+    top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #282F81
+}
+.nav3{ 
+   
+    position: absolute;
+    right: 70px;
+    top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;        
+    color: #282F81
+}
